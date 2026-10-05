@@ -1,0 +1,31 @@
+# Local network and service credentials
+wifi_config.h
+.env
+.env.*
+!.env.example
+*service-account*.json
+*.pem
+*.key
+
+# Build artifacts and local toolchains
+output/
+build/
+.pio/
+PIC16F_DFP/
+*.hex
+*.elf
+*.o
+*.obj
+*.map
+__pycache__/
+.venv/
+
+# Local editor and hardware-design backups
+.vs/
+.vscode/
+*.bak
+*.pdsprj.*
+*-backups/
+~$*
+Thumbs.db
+.DS_Store

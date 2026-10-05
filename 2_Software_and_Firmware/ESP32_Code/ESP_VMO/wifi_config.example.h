@@ -1,0 +1,7 @@
+#ifndef WIFI_CONFIG_H
+#define WIFI_CONFIG_H
+
+#define WIFI_SSID "YOUR_WIFI_NETWORK"
+#define WIFI_PASS "YOUR_WIFI_PASSWORD"
+
+#endif
